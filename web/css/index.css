@@ -1,0 +1,71 @@
+.editForm {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.editForm h2 {
+	text-align: center;
+}
+
+ul.generatorInfo {
+	float: left;
+	width: 50%;
+	margin-left: 5%;
+	list-style: none;
+}
+
+ul.generatorInfo>li>span {
+	width: 120px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+}
+
+ul.generatorInfo>li>span {
+	width: 125px;
+	display: inline-block;
+}
+
+ul.generatorInfo>li.btnGroup {
+	text-align: center;
+}
+
+form.editForm a.btn {
+	display: inline-block;
+	padding: 2px 5px;
+	border: 1px solid #ccc;
+	margin: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	text-decoration: none;
+	background: #eee;
+	color: #666;
+	cursor: pointer;
+}
+
+table.tableInfo {
+	float: right;
+	width: 200px;
+	margin-right: 5%;
+}
+
+table.tableInfo tr, table.tableInfo td, table.tableInfo th {
+	margin: 0;
+}
+
+table.tableInfo tr>th:first-child, table.tableInfo tr>td:first-child {
+	width: 16px;
+	text-align: center;
+}
+
+table.tableInfo>thead tr {
+	background: #b5cee3;
+}
+
+table.tableInfo>tbody tr {
+	background: #ddd;
+}
+
+table.tableInfo>tbody tr:nth-child(2n) {
+	background: #eee;
+}

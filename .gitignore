@@ -1,0 +1,21 @@
+target/
+# Maven
+release.properties
+
+# Eclipse
+.classpath
+.project
+.externalToolBuilders/
+.metadata
+.settings/
+classes/
+# Mac
+.DS_Store
+
+target/
+.idea/
+logs/
+*.iml
+out/
+
+.class
